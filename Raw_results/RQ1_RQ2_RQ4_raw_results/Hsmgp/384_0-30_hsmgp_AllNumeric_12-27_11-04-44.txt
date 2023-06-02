@@ -1,0 +1,874 @@
+N_train=384 N_test=3072
+Run 1
+depth1 Deepperf_submodeling RE: 1.3756982603105203
+depth1 Deepperf_submodeling_time (minutes): 13.981068507830303
+depth1 RF_submodeling RE: 7.462741831316829
+depth1 RF_submodeling_time (minutes): 2.492831556002299
+depth1 KNN_submodeling RE: 13.386188333564624
+depth1 KNN_submodeling_time (minutes): 0.0790473222732544
+depth1 SVR_submodeling RE: 10.55864950567839
+depth1 SVR_submodeling_time (minutes): 0.130545711517334
+depth1 DT_submodeling RE: 11.299629965906542
+depth1 DT_submodeling_time (minutes): 0.01916680335998535
+depth1 LR_submodeling RE: 7.021225897931899
+depth1 LR_submodeling_time (minutes): 0.008502936363220215
+depth1 KR_submodeling RE: 6.923308061068489
+depth1 KR_submodeling_time (minutes): 0.39043689568837486
+Deepperf RE: 2.4106763857365783
+Deepperf_time (minutes): 13.33196173508962
+RF RE: 7.7505520112757385
+RF_time (minutes): 1.2819015026092528
+KNN RE: 13.365903248036526
+KNN_time (minutes): 0.015267288684844971
+SVR RE: 15.182445439363399
+SVR_time (minutes): 0.13045685688654582
+DT RE: 11.556841672338514
+DT_time (minutes): 0.008580533663431804
+LR RE: 50.63217708566938
+LR_time (minutes): 0.0005466500918070475
+KR RE: 48.10649087647553
+KR_time (minutes): 0.30450965563456217
+Run 2
+depth1 Deepperf_submodeling RE: 1.5255240619745634
+depth1 Deepperf_submodeling_time (minutes): 13.636934820810954
+depth1 RF_submodeling RE: 7.327721125939232
+depth1 RF_submodeling_time (minutes): 2.51058673063914
+depth1 KNN_submodeling RE: 14.246374933464173
+depth1 KNN_submodeling_time (minutes): 0.07788734038670858
+depth1 SVR_submodeling RE: 11.794524860621406
+depth1 SVR_submodeling_time (minutes): 0.12903933922449748
+depth1 DT_submodeling RE: 11.805905766955549
+depth1 DT_submodeling_time (minutes): 0.018925046920776366
+depth1 LR_submodeling RE: 7.334728286516895
+depth1 LR_submodeling_time (minutes): 0.007893677552541096
+depth1 KR_submodeling RE: 7.454716175792039
+depth1 KR_submodeling_time (minutes): 0.40214725732803347
+Deepperf RE: 1.9251845618549968
+Deepperf_time (minutes): 11.103433144092559
+RF RE: 8.709983086914548
+RF_time (minutes): 1.2731433073679606
+KNN RE: 14.259889430680053
+KNN_time (minutes): 0.01513141393661499
+SVR RE: 14.06986508884003
+SVR_time (minutes): 0.1334080417950948
+DT RE: 10.94594003681288
+DT_time (minutes): 0.008592148621877035
+LR RE: 41.05841206178609
+LR_time (minutes): 0.0006219903628031413
+KR RE: 37.01643973360297
+KR_time (minutes): 0.30278560717900593
+N_train=384 N_test=3072
+Run 3
+depth1 Deepperf_submodeling RE: 1.52247962467736
+depth1 Deepperf_submodeling_time (minutes): 12.514089063803356
+depth1 RF_submodeling RE: 8.295211880962635
+depth1 RF_submodeling_time (minutes): 2.6568363149960836
+depth1 KNN_submodeling RE: 15.451489330796456
+depth1 KNN_submodeling_time (minutes): 0.07963974078496297
+depth1 SVR_submodeling RE: 10.317533561932839
+depth1 SVR_submodeling_time (minutes): 0.12896377245585125
+depth1 DT_submodeling RE: 12.88971161130337
+depth1 DT_submodeling_time (minutes): 0.01966611941655477
+depth1 LR_submodeling RE: 7.282987756989904
+depth1 LR_submodeling_time (minutes): 0.00831069548924764
+depth1 KR_submodeling RE: 7.36768344148652
+depth1 KR_submodeling_time (minutes): 0.3492849588394165
+Deepperf RE: 3.174374078907377
+Deepperf_time (minutes): 12.142370851834615
+RF RE: 8.807675464601276
+RF_time (minutes): 1.282759928703308
+KNN RE: 15.455806602083696
+KNN_time (minutes): 0.015288098653157552
+SVR RE: 14.793571486950654
+SVR_time (minutes): 0.1332044005393982
+DT RE: 13.01025991118688
+DT_time (minutes): 0.008579198519388835
+LR RE: 39.25930855047686
+LR_time (minutes): 0.0005694309870402019
+KR RE: 36.23793235258948
+KR_time (minutes): 0.263218621412913
+Run 4
+depth1 Deepperf_submodeling RE: 1.396459606620726
+depth1 Deepperf_submodeling_time (minutes): 12.406596783796946
+depth1 RF_submodeling RE: 7.26752338866451
+depth1 RF_submodeling_time (minutes): 2.506491446495056
+depth1 KNN_submodeling RE: 12.260589872236276
+depth1 KNN_submodeling_time (minutes): 0.08041356801986695
+depth1 SVR_submodeling RE: 9.908543849808103
+depth1 SVR_submodeling_time (minutes): 0.1296398401260376
+depth1 DT_submodeling RE: 10.544023969997896
+depth1 DT_submodeling_time (minutes): 0.019392848014831543
+depth1 LR_submodeling RE: 6.9869816783263055
+depth1 LR_submodeling_time (minutes): 0.008064520359039307
+depth1 KR_submodeling RE: 6.977982782644688
+depth1 KR_submodeling_time (minutes): 0.3337977011998495
+Deepperf RE: 2.291924802500202
+Deepperf_time (minutes): 9.972173102696736
+RF RE: 7.496701369597246
+RF_time (minutes): 1.290660059452057
+KNN RE: 12.465922636673477
+KNN_time (minutes): 0.015000351270039876
+SVR RE: 14.445201257713316
+SVR_time (minutes): 0.12995090087254843
+DT RE: 12.460202230105404
+DT_time (minutes): 0.00875553290049235
+LR RE: 52.81275678172518
+LR_time (minutes): 0.0005415956179300944
+KR RE: 50.748463754128146
+KR_time (minutes): 0.25781195163726806
+Run 5
+depth1 Deepperf_submodeling RE: 1.3871516658371597
+depth1 Deepperf_submodeling_time (minutes): 12.375160356362661
+depth1 RF_submodeling RE: 6.882594697147333
+depth1 RF_submodeling_time (minutes): 2.6418670137723286
+depth1 KNN_submodeling RE: 13.291915374398016
+depth1 KNN_submodeling_time (minutes): 0.08056829770406088
+depth1 SVR_submodeling RE: 9.643769177325755
+depth1 SVR_submodeling_time (minutes): 0.12657936811447143
+depth1 DT_submodeling RE: 10.365037671621437
+depth1 DT_submodeling_time (minutes): 0.019420166810353596
+depth1 LR_submodeling RE: 7.174988709482723
+depth1 LR_submodeling_time (minutes): 0.008248404661814372
+depth1 KR_submodeling RE: 7.1289842604924685
+depth1 KR_submodeling_time (minutes): 0.3785050749778748
+Deepperf RE: 2.2151731681992035
+Deepperf_time (minutes): 12.032185912132263
+RF RE: 7.199376077799273
+RF_time (minutes): 1.288284997145335
+KNN RE: 13.324060473958212
+KNN_time (minutes): 0.015189659595489503
+SVR RE: 14.750669576789916
+SVR_time (minutes): 0.13240838050842285
+DT RE: 10.883709677760438
+DT_time (minutes): 0.008517583211263021
+LR RE: 54.869828160891565
+LR_time (minutes): 0.0005719979604085286
+KR RE: 45.78216420696493
+KR_time (minutes): 0.27810089190800985
+Run 6
+depth1 Deepperf_submodeling RE: 1.7066642247489103
+depth1 Deepperf_submodeling_time (minutes): 14.169993742307026
+depth1 RF_submodeling RE: 7.613377901196412
+depth1 RF_submodeling_time (minutes): 2.5685686349868773
+depth1 KNN_submodeling RE: 15.799623467863938
+depth1 KNN_submodeling_time (minutes): 0.08033032814661661
+depth1 SVR_submodeling RE: 10.162762850816657
+depth1 SVR_submodeling_time (minutes): 0.12232012351353963
+depth1 DT_submodeling RE: 11.409315666667993
+depth1 DT_submodeling_time (minutes): 0.01950238545735677
+depth1 LR_submodeling RE: 7.654848906721952
+depth1 LR_submodeling_time (minutes): 0.008143877983093262
+depth1 KR_submodeling RE: 7.499355383490777
+depth1 KR_submodeling_time (minutes): 0.3201839764912923
+Deepperf RE: 2.073453581917554
+Deepperf_time (minutes): 10.10608567794164
+RF RE: 7.842600654193575
+RF_time (minutes): 1.2825689872105916
+KNN RE: 15.792445415307691
+KNN_time (minutes): 0.014881237347920736
+SVR RE: 15.364512474501415
+SVR_time (minutes): 0.13108291228612265
+DT RE: 10.82338029867893
+DT_time (minutes): 0.008416982491811116
+LR RE: 57.20770988840233
+LR_time (minutes): 0.0005296627680460612
+KR RE: 55.72507125427029
+KR_time (minutes): 0.2675577918688456
+Run 7
+depth1 Deepperf_submodeling RE: 1.5556228486316914
+depth1 Deepperf_submodeling_time (minutes): 12.275862089792888
+depth1 RF_submodeling RE: 6.4639181800863525
+depth1 RF_submodeling_time (minutes): 2.637477151552836
+depth1 KNN_submodeling RE: 13.89974769750287
+depth1 KNN_submodeling_time (minutes): 0.07943211396535238
+depth1 SVR_submodeling RE: 9.365703971402612
+depth1 SVR_submodeling_time (minutes): 0.12500640551249187
+depth1 DT_submodeling RE: 10.179280761319562
+depth1 DT_submodeling_time (minutes): 0.018921430905659994
+depth1 LR_submodeling RE: 7.002359141819352
+depth1 LR_submodeling_time (minutes): 0.007699799537658691
+depth1 KR_submodeling RE: 6.986437727321136
+depth1 KR_submodeling_time (minutes): 0.3326132575670878
+Deepperf RE: 2.6740129429963075
+Deepperf_time (minutes): 11.955691051483154
+RF RE: 6.515633309071629
+RF_time (minutes): 1.2533145467440288
+KNN RE: 13.569855067609035
+KNN_time (minutes): 0.014957475662231445
+SVR RE: 15.112441633006624
+SVR_time (minutes): 0.13542436361312865
+DT RE: 10.013946505172864
+DT_time (minutes): 0.008199854691823324
+LR RE: 52.21821119920903
+LR_time (minutes): 0.0005157589912414551
+KR RE: 50.10491277086919
+KR_time (minutes): 0.2741522510846456
+Run 8
+depth1 Deepperf_submodeling RE: 1.5186124515739576
+depth1 Deepperf_submodeling_time (minutes): 13.803982790311178
+depth1 RF_submodeling RE: 6.632974909684527
+depth1 RF_submodeling_time (minutes): 2.4661916693051658
+depth1 KNN_submodeling RE: 14.367676258385252
+depth1 KNN_submodeling_time (minutes): 0.07904806931813559
+depth1 SVR_submodeling RE: 9.769718204816902
+depth1 SVR_submodeling_time (minutes): 0.12420512835184733
+depth1 DT_submodeling RE: 12.023098011410887
+depth1 DT_submodeling_time (minutes): 0.019842767715454103
+depth1 LR_submodeling RE: 6.983127453765573
+depth1 LR_submodeling_time (minutes): 0.008000532786051432
+depth1 KR_submodeling RE: 7.002336630367104
+depth1 KR_submodeling_time (minutes): 0.33491344849268595
+Deepperf RE: 2.218519477965118
+Deepperf_time (minutes): 10.259160343805949
+RF RE: 7.550775037929201
+RF_time (minutes): 1.2605671763420105
+KNN RE: 14.363490116994804
+KNN_time (minutes): 0.014662750562032064
+SVR RE: 14.848860354764163
+SVR_time (minutes): 0.12940170367558798
+DT RE: 11.5855195186296
+DT_time (minutes): 0.008385944366455077
+LR RE: 48.63505548103173
+LR_time (minutes): 0.0005311052004496257
+KR RE: 47.40535734023652
+KR_time (minutes): 0.28578950961430866
+N_train=384 N_test=3072
+Run 9
+depth1 Deepperf_submodeling RE: 1.399677518530617
+depth1 Deepperf_submodeling_time (minutes): 13.849934188524882
+depth1 RF_submodeling RE: 7.668084872317789
+depth1 RF_submodeling_time (minutes): 2.2809869488080343
+depth1 KNN_submodeling RE: 14.125269293053542
+depth1 KNN_submodeling_time (minutes): 0.07847596009572347
+depth1 SVR_submodeling RE: 10.409915560376419
+depth1 SVR_submodeling_time (minutes): 0.12923510471979777
+depth1 DT_submodeling RE: 11.429992635489901
+depth1 DT_submodeling_time (minutes): 0.018510425090789796
+depth1 LR_submodeling RE: 7.432234416920906
+depth1 LR_submodeling_time (minutes): 0.008146655559539796
+depth1 KR_submodeling RE: 7.37747623952389
+depth1 KR_submodeling_time (minutes): 0.36365726788838704
+Deepperf RE: 2.2053886585063838
+Deepperf_time (minutes): 11.178399868806203
+RF RE: 7.981429876209208
+RF_time (minutes): 1.2829283515612284
+KNN RE: 14.127612868561599
+KNN_time (minutes): 0.015318878491719564
+SVR RE: 14.13310088784133
+SVR_time (minutes): 0.1298030455907186
+DT RE: 11.67724218973898
+DT_time (minutes): 0.008689641952514648
+LR RE: 56.09381441491862
+LR_time (minutes): 0.0005800882975260417
+KR RE: 52.56784101567761
+KR_time (minutes): 0.31647806564966835
+Run 10
+depth1 Deepperf_submodeling RE: 1.7194115134152235
+depth1 Deepperf_submodeling_time (minutes): 13.783790063858032
+depth1 RF_submodeling RE: 7.163193949315494
+depth1 RF_submodeling_time (minutes): 2.600977810223897
+depth1 KNN_submodeling RE: 15.698266579264986
+depth1 KNN_submodeling_time (minutes): 0.0786631186803182
+depth1 SVR_submodeling RE: 9.937545753155886
+depth1 SVR_submodeling_time (minutes): 0.11993621985117595
+depth1 DT_submodeling RE: 11.414643845341757
+depth1 DT_submodeling_time (minutes): 0.01898359457651774
+depth1 LR_submodeling RE: 6.936087845050892
+depth1 LR_submodeling_time (minutes): 0.007799470424652099
+depth1 KR_submodeling RE: 7.100913896467034
+depth1 KR_submodeling_time (minutes): 0.3720625042915344
+Deepperf RE: 2.4046099834303503
+Deepperf_time (minutes): 17.723301835854848
+RF RE: 7.165447099960052
+RF_time (minutes): 1.2894784053166708
+KNN RE: 15.69538770033089
+KNN_time (minutes): 0.014978754520416259
+SVR RE: 15.937936371178484
+SVR_time (minutes): 0.13225831190745035
+DT RE: 12.148043462587143
+DT_time (minutes): 0.008587507406870525
+LR RE: 58.456346786819445
+LR_time (minutes): 0.0005849440892537435
+KR RE: 54.98689927448858
+KR_time (minutes): 0.3074449896812439
+Run 11
+depth1 Deepperf_submodeling RE: 1.5893541094956511
+depth1 Deepperf_submodeling_time (minutes): 14.15280178785324
+depth1 RF_submodeling RE: 7.150630814721836
+depth1 RF_submodeling_time (minutes): 2.3710694432258608
+depth1 KNN_submodeling RE: 14.802421764154937
+depth1 KNN_submodeling_time (minutes): 0.07875722249348958
+depth1 SVR_submodeling RE: 9.922239444216356
+depth1 SVR_submodeling_time (minutes): 0.12335716485977173
+depth1 DT_submodeling RE: 10.370969947650435
+depth1 DT_submodeling_time (minutes): 0.019123768806457518
+depth1 LR_submodeling RE: 7.3350381165695495
+depth1 LR_submodeling_time (minutes): 0.007808581988016764
+depth1 KR_submodeling RE: 7.358551821121836
+depth1 KR_submodeling_time (minutes): 0.37206287384033204
+Deepperf RE: 2.2278892556047345
+Deepperf_time (minutes): 13.270521922906239
+RF RE: 6.758553967640325
+RF_time (minutes): 1.270652743180593
+KNN RE: 15.19007143808051
+KNN_time (minutes): 0.015344381332397461
+SVR RE: 14.155346676160674
+SVR_time (minutes): 0.1322855234146118
+DT RE: 10.405677459679714
+DT_time (minutes): 0.009764587879180909
+LR RE: 42.78824472361634
+LR_time (minutes): 0.0006207505861918132
+KR RE: 41.69338897772953
+KR_time (minutes): 0.3078818440437317
+Run 12
+depth1 Deepperf_submodeling RE: 1.4611218330831708
+depth1 Deepperf_submodeling_time (minutes): 13.703131361802418
+depth1 RF_submodeling RE: 7.4387649509832015
+depth1 RF_submodeling_time (minutes): 2.552468756834666
+depth1 KNN_submodeling RE: 15.374751121608924
+depth1 KNN_submodeling_time (minutes): 0.07927072048187256
+depth1 SVR_submodeling RE: 10.746914030758346
+depth1 SVR_submodeling_time (minutes): 0.12639854351679483
+depth1 DT_submodeling RE: 11.428963121549225
+depth1 DT_submodeling_time (minutes): 0.019259941577911378
+depth1 LR_submodeling RE: 6.9119849807752205
+depth1 LR_submodeling_time (minutes): 0.008029584089914958
+depth1 KR_submodeling RE: 6.847841431081792
+depth1 KR_submodeling_time (minutes): 0.3670447866121928
+Deepperf RE: 2.0603976053845696
+Deepperf_time (minutes): 11.113562512397767
+RF RE: 7.6418734624889115
+RF_time (minutes): 1.2779083053270976
+KNN RE: 15.772260775168048
+KNN_time (minutes): 0.015373591581980388
+SVR RE: 14.979058816302937
+SVR_time (minutes): 0.1287328004837036
+DT RE: 10.730067932272506
+DT_time (minutes): 0.00880728562672933
+LR RE: 51.66369988854231
+LR_time (minutes): 0.0006166458129882813
+KR RE: 47.437942205259546
+KR_time (minutes): 0.28773998022079467
+Run 13
+depth1 Deepperf_submodeling RE: 1.62416382147577
+depth1 Deepperf_submodeling_time (minutes): 13.488851483662923
+depth1 RF_submodeling RE: 7.0268144460145265
+depth1 RF_submodeling_time (minutes): 2.4347041885058087
+depth1 KNN_submodeling RE: 13.998163986303119
+depth1 KNN_submodeling_time (minutes): 0.07844799757003784
+depth1 SVR_submodeling RE: 9.617836025944209
+depth1 SVR_submodeling_time (minutes): 0.12408388455708821
+depth1 DT_submodeling RE: 11.099471859815864
+depth1 DT_submodeling_time (minutes): 0.019089086850484212
+depth1 LR_submodeling RE: 7.499398988007464
+depth1 LR_submodeling_time (minutes): 0.008013335863749187
+depth1 KR_submodeling RE: 7.573518127585184
+depth1 KR_submodeling_time (minutes): 0.3550593654314677
+Deepperf RE: 2.0368934465734583
+Deepperf_time (minutes): 13.219628882408141
+RF RE: 7.13568969844578
+RF_time (minutes): 1.2649850368499755
+KNN RE: 13.970629175204316
+KNN_time (minutes): 0.01457665761311849
+SVR RE: 15.185271748593394
+SVR_time (minutes): 0.13018144766489664
+DT RE: 12.432845749643706
+DT_time (minutes): 0.00853264331817627
+LR RE: 55.53778232884721
+LR_time (minutes): 0.0006021062533060709
+KR RE: 53.222808664084006
+KR_time (minutes): 0.29460996786753335
+Run 14
+depth1 Deepperf_submodeling RE: 1.4908235562470171
+depth1 Deepperf_submodeling_time (minutes): 13.542357178529103
+depth1 RF_submodeling RE: 8.018965704452066
+depth1 RF_submodeling_time (minutes): 2.287909475962321
+depth1 KNN_submodeling RE: 15.248790535706517
+depth1 KNN_submodeling_time (minutes): 0.07880125045776368
+depth1 SVR_submodeling RE: 10.85023072055951
+depth1 SVR_submodeling_time (minutes): 0.12594080368677776
+depth1 DT_submodeling RE: 11.50989489035195
+depth1 DT_submodeling_time (minutes): 0.019126566251118977
+depth1 LR_submodeling RE: 7.262791300380712
+depth1 LR_submodeling_time (minutes): 0.0080879807472229
+depth1 KR_submodeling RE: 7.2798192365001455
+depth1 KR_submodeling_time (minutes): 0.3651695211728414
+Deepperf RE: 2.217115715953875
+Deepperf_time (minutes): 17.961343689759573
+RF RE: 7.972828905921156
+RF_time (minutes): 1.2704360365867615
+KNN RE: 15.318698694200725
+KNN_time (minutes): 0.015273857116699218
+SVR RE: 15.078247160684946
+SVR_time (minutes): 0.13315283060073851
+DT RE: 11.191538494565826
+DT_time (minutes): 0.008770926793416341
+LR RE: 51.25574571658261
+LR_time (minutes): 0.0006232817967732747
+KR RE: 46.51937722821498
+KR_time (minutes): 0.3068684220314026
+Run 15
+depth1 Deepperf_submodeling RE: 1.66286704684286
+depth1 Deepperf_submodeling_time (minutes): 13.792987696329753
+depth1 RF_submodeling RE: 7.246488730961182
+depth1 RF_submodeling_time (minutes): 2.4800182739893595
+depth1 KNN_submodeling RE: 14.986920301407544
+depth1 KNN_submodeling_time (minutes): 0.08241249322891235
+depth1 SVR_submodeling RE: 10.622448667580908
+depth1 SVR_submodeling_time (minutes): 0.13388445774714153
+depth1 DT_submodeling RE: 12.414682300490218
+depth1 DT_submodeling_time (minutes): 0.019498129685719807
+depth1 LR_submodeling RE: 7.482258792749693
+depth1 LR_submodeling_time (minutes): 0.008313906192779542
+depth1 KR_submodeling RE: 7.281280460338802
+depth1 KR_submodeling_time (minutes): 0.3653248429298401
+Deepperf RE: 2.2966628790065733
+Deepperf_time (minutes): 11.212154920895895
+RF RE: 6.967263543492347
+RF_time (minutes): 1.2763054331143697
+KNN RE: 14.404644921600122
+KNN_time (minutes): 0.014594769477844239
+SVR RE: 14.898798399400794
+SVR_time (minutes): 0.1302155375480652
+DT RE: 11.584259486498238
+DT_time (minutes): 0.008951576550801595
+LR RE: 35.07397213072061
+LR_time (minutes): 0.0005644838015238444
+KR RE: 33.95564796922326
+KR_time (minutes): 0.29326512416203815
+Run 16
+depth1 Deepperf_submodeling RE: 1.6491973303640795
+depth1 Deepperf_submodeling_time (minutes): 15.349961992104848
+depth1 RF_submodeling RE: 7.108364000959713
+depth1 RF_submodeling_time (minutes): 2.537432138125102
+depth1 KNN_submodeling RE: 13.659501216582465
+depth1 KNN_submodeling_time (minutes): 0.07865433692932129
+depth1 SVR_submodeling RE: 9.370887934542795
+depth1 SVR_submodeling_time (minutes): 0.12307455539703369
+depth1 DT_submodeling RE: 11.129429162227547
+depth1 DT_submodeling_time (minutes): 0.019214598337809245
+depth1 LR_submodeling RE: 7.13222895322615
+depth1 LR_submodeling_time (minutes): 0.008308645089467366
+depth1 KR_submodeling RE: 7.176989066782922
+depth1 KR_submodeling_time (minutes): 0.36867751280466715
+Deepperf RE: 2.26840786693756
+Deepperf_time (minutes): 11.18390922943751
+RF RE: 7.071514966861135
+RF_time (minutes): 1.2659497181574504
+KNN RE: 13.025968004571475
+KNN_time (minutes): 0.015007678667704265
+SVR RE: 15.104715944804841
+SVR_time (minutes): 0.1311530073483785
+DT RE: 10.684814003475344
+DT_time (minutes): 0.008502797285715739
+LR RE: 52.32135726495185
+LR_time (minutes): 0.0005974094072977702
+KR RE: 45.47186677531143
+KR_time (minutes): 0.29838876326878866
+Run 17
+depth1 Deepperf_submodeling RE: 1.5712709193774945
+depth1 Deepperf_submodeling_time (minutes): 13.637762928009034
+depth1 RF_submodeling RE: 6.916287716048854
+depth1 RF_submodeling_time (minutes): 2.5564186215400695
+depth1 KNN_submodeling RE: 14.034286652635581
+depth1 KNN_submodeling_time (minutes): 0.08568195104599
+depth1 SVR_submodeling RE: 9.987655603997881
+depth1 SVR_submodeling_time (minutes): 0.12920105457305908
+depth1 DT_submodeling RE: 11.582375054088123
+depth1 DT_submodeling_time (minutes): 0.019787160555521648
+depth1 LR_submodeling RE: 7.141273536480161
+depth1 LR_submodeling_time (minutes): 0.008211020628611248
+depth1 KR_submodeling RE: 7.0901045712838595
+depth1 KR_submodeling_time (minutes): 0.3897078037261963
+Deepperf RE: 2.1007126867150467
+Deepperf_time (minutes): 11.27067872285843
+RF RE: 7.165085215486054
+RF_time (minutes): 1.309856390953064
+KNN RE: 14.275476466714043
+KNN_time (minutes): 0.015121833483378092
+SVR RE: 15.098721096566129
+SVR_time (minutes): 0.13499665260314941
+DT RE: 11.338293491364066
+DT_time (minutes): 0.009062031904856363
+LR RE: 53.45044238561777
+LR_time (minutes): 0.0005894780158996582
+KR RE: 50.85995183870352
+KR_time (minutes): 0.3168886741002401
+Run 18
+depth1 Deepperf_submodeling RE: 1.685957236958398
+depth1 Deepperf_submodeling_time (minutes): 15.605444832642872
+depth1 RF_submodeling RE: 7.792078818134939
+depth1 RF_submodeling_time (minutes): 2.3066246271133424
+depth1 KNN_submodeling RE: 12.960440217909605
+depth1 KNN_submodeling_time (minutes): 0.07886606852213542
+depth1 SVR_submodeling RE: 9.902859544849797
+depth1 SVR_submodeling_time (minutes): 0.1272146185239156
+depth1 DT_submodeling RE: 10.837390397479526
+depth1 DT_submodeling_time (minutes): 0.01914708614349365
+depth1 LR_submodeling RE: 7.084701611452895
+depth1 LR_submodeling_time (minutes): 0.007968763510386149
+depth1 KR_submodeling RE: 7.1196448891091295
+depth1 KR_submodeling_time (minutes): 0.3578245520591736
+Deepperf RE: 2.6533900692874663
+Deepperf_time (minutes): 11.129264191786449
+RF RE: 7.449207223785718
+RF_time (minutes): 1.271736979484558
+KNN RE: 12.948298337148179
+KNN_time (minutes): 0.015473596254984538
+SVR RE: 15.20460211451066
+SVR_time (minutes): 0.13385978539784749
+DT RE: 11.135209337431885
+DT_time (minutes): 0.008699961503346761
+LR RE: 43.91278491016646
+LR_time (minutes): 0.0006046056747436524
+KR RE: 42.506633976562696
+KR_time (minutes): 0.30131924549738565
+Run 19
+depth1 Deepperf_submodeling RE: 1.5380191834408599
+depth1 Deepperf_submodeling_time (minutes): 13.691884235541027
+depth1 RF_submodeling RE: 7.631526651383871
+depth1 RF_submodeling_time (minutes): 2.4478737195332845
+depth1 KNN_submodeling RE: 13.523781672876671
+depth1 KNN_submodeling_time (minutes): 0.0781239668528239
+depth1 SVR_submodeling RE: 9.128651343830276
+depth1 SVR_submodeling_time (minutes): 0.12182398637135823
+depth1 DT_submodeling RE: 11.607575189359006
+depth1 DT_submodeling_time (minutes): 0.018901713689168296
+depth1 LR_submodeling RE: 7.369641805981236
+depth1 LR_submodeling_time (minutes): 0.007918941974639892
+depth1 KR_submodeling RE: 7.283570297143704
+depth1 KR_submodeling_time (minutes): 0.35949812332789105
+Deepperf RE: 2.659691776616682
+Deepperf_time (minutes): 11.167828706900279
+RF RE: 7.641875006651542
+RF_time (minutes): 1.2585201740264893
+KNN RE: 14.105987258499376
+KNN_time (minutes): 0.014682344595591227
+SVR RE: 16.802556080943877
+SVR_time (minutes): 0.13165225982666015
+DT RE: 10.338933930419248
+DT_time (minutes): 0.00848154624303182
+LR RE: 59.583622016389526
+LR_time (minutes): 0.0006049235661824544
+KR RE: 55.50322306714942
+KR_time (minutes): 0.31152993043263755
+Run 20
+depth1 Deepperf_submodeling RE: 1.4256077691199733
+depth1 Deepperf_submodeling_time (minutes): 13.671715223789215
+depth1 RF_submodeling RE: 6.974864165331604
+depth1 RF_submodeling_time (minutes): 2.5481609106063843
+depth1 KNN_submodeling RE: 13.876112383629286
+depth1 KNN_submodeling_time (minutes): 0.07828527688980103
+depth1 SVR_submodeling RE: 8.785368914739308
+depth1 SVR_submodeling_time (minutes): 0.12392784357070923
+depth1 DT_submodeling RE: 9.342548422110381
+depth1 DT_submodeling_time (minutes): 0.018564629554748534
+depth1 LR_submodeling RE: 7.441809758974671
+depth1 LR_submodeling_time (minutes): 0.007618884245554606
+depth1 KR_submodeling RE: 7.396964181139936
+depth1 KR_submodeling_time (minutes): 0.3474425514539083
+Deepperf RE: 2.136584993174422
+Deepperf_time (minutes): 11.187475450833638
+RF RE: 7.251053826050772
+RF_time (minutes): 1.2831190784772237
+KNN RE: 13.284751850447016
+KNN_time (minutes): 0.014750115076700846
+SVR RE: 14.586799474670888
+SVR_time (minutes): 0.13650924762090047
+DT RE: 9.745045973152248
+DT_time (minutes): 0.008575149377187093
+LR RE: 54.74271037015907
+LR_time (minutes): 0.0006795366605122884
+KR RE: 52.35681915098122
+KR_time (minutes): 0.29426048199335736
+N_train=384 N_test=3072
+Run 21
+depth1 Deepperf_submodeling RE: 1.846597393614332
+depth1 Deepperf_submodeling_time (minutes): 26.48222188949585
+depth1 RF_submodeling RE: 7.28549944392532
+depth1 RF_submodeling_time (minutes): 2.633916970094045
+depth1 KNN_submodeling RE: 14.087661619982512
+depth1 KNN_submodeling_time (minutes): 0.08083069324493408
+depth1 SVR_submodeling RE: 9.525637485646309
+depth1 SVR_submodeling_time (minutes): 0.12436913251876831
+depth1 DT_submodeling RE: 10.708871400822337
+depth1 DT_submodeling_time (minutes): 0.019471355279286704
+depth1 LR_submodeling RE: 7.115936730137378
+depth1 LR_submodeling_time (minutes): 0.008728285630544027
+depth1 KR_submodeling RE: 7.122102494960484
+depth1 KR_submodeling_time (minutes): 0.39189335505167644
+Deepperf RE: 2.210909101800203
+Deepperf_time (minutes): 14.04829142888387
+RF RE: 7.38090103382935
+RF_time (minutes): 1.3267503738403321
+KNN RE: 13.87829939920073
+KNN_time (minutes): 0.015726904074350994
+SVR RE: 15.287212615371951
+SVR_time (minutes): 0.13574926058451334
+DT RE: 10.653243078807591
+DT_time (minutes): 0.009290897846221923
+LR RE: 46.65889248756825
+LR_time (minutes): 0.0005865812301635743
+KR RE: 40.54726774694732
+KR_time (minutes): 0.3244858463605245
+Run 22
+depth1 Deepperf_submodeling RE: 1.5525892542546258
+depth1 Deepperf_submodeling_time (minutes): 14.604659163951874
+depth1 RF_submodeling RE: 7.706004783453814
+depth1 RF_submodeling_time (minutes): 2.7348119258880614
+depth1 KNN_submodeling RE: 15.678684808719384
+depth1 KNN_submodeling_time (minutes): 0.09686977863311767
+depth1 SVR_submodeling RE: 11.103100218817465
+depth1 SVR_submodeling_time (minutes): 0.1450767199198405
+depth1 DT_submodeling RE: 10.97723108721543
+depth1 DT_submodeling_time (minutes): 0.023764185110727944
+depth1 LR_submodeling RE: 7.058898039635245
+depth1 LR_submodeling_time (minutes): 0.009777247905731201
+depth1 KR_submodeling RE: 6.895978614002172
+depth1 KR_submodeling_time (minutes): 0.4395554701487223
+Deepperf RE: 2.6993127132195904
+Deepperf_time (minutes): 19.63081620136897
+RF RE: 7.820776577397274
+RF_time (minutes): 1.3867923180262247
+KNN RE: 16.411806880720718
+KNN_time (minutes): 0.01722477674484253
+SVR RE: 14.214885298821214
+SVR_time (minutes): 0.1384124239285787
+DT RE: 10.897475669486544
+DT_time (minutes): 0.009698009490966797
+LR RE: 51.29832076580146
+LR_time (minutes): 0.0007638971010843913
+KR RE: 50.34419090254462
+KR_time (minutes): 0.34725407759348553
+Run 23
+depth1 Deepperf_submodeling RE: 1.898478026541799
+depth1 Deepperf_submodeling_time (minutes): 15.225658957163493
+depth1 RF_submodeling RE: 7.000741597044738
+depth1 RF_submodeling_time (minutes): 2.8634318312009177
+depth1 KNN_submodeling RE: 15.206584644762728
+depth1 KNN_submodeling_time (minutes): 0.09179073174794515
+depth1 SVR_submodeling RE: 9.879056997381786
+depth1 SVR_submodeling_time (minutes): 0.14568618535995484
+depth1 DT_submodeling RE: 11.188669776122476
+depth1 DT_submodeling_time (minutes): 0.021754145622253418
+depth1 LR_submodeling RE: 7.009582963398554
+depth1 LR_submodeling_time (minutes): 0.008879137039184571
+depth1 KR_submodeling RE: 7.052098271759654
+depth1 KR_submodeling_time (minutes): 0.4247296531995138
+Deepperf RE: 3.2279974870106316
+Deepperf_time (minutes): 12.150211465358733
+RF RE: 7.062320715523196
+RF_time (minutes): 1.369042452176412
+KNN RE: 14.39812785963942
+KNN_time (minutes): 0.01679442326227824
+SVR RE: 14.478219961648598
+SVR_time (minutes): 0.13286682764689128
+DT RE: 10.53367599405643
+DT_time (minutes): 0.009248220920562744
+LR RE: 47.469009949114735
+LR_time (minutes): 0.0006137490272521973
+KR RE: 44.54795741920317
+KR_time (minutes): 0.30771971940994264
+Run 24
+depth1 Deepperf_submodeling RE: 1.5891636943658674
+depth1 Deepperf_submodeling_time (minutes): 14.830158178011576
+depth1 RF_submodeling RE: 7.5118641501219585
+depth1 RF_submodeling_time (minutes): 2.6633211692174275
+depth1 KNN_submodeling RE: 15.968000242287038
+depth1 KNN_submodeling_time (minutes): 0.08294276396433513
+depth1 SVR_submodeling RE: 9.885933960277297
+depth1 SVR_submodeling_time (minutes): 0.12901977300643921
+depth1 DT_submodeling RE: 11.566785971068763
+depth1 DT_submodeling_time (minutes): 0.02018352746963501
+depth1 LR_submodeling RE: 6.77140135144555
+depth1 LR_submodeling_time (minutes): 0.00857763687769572
+depth1 KR_submodeling RE: 6.962055860858719
+depth1 KR_submodeling_time (minutes): 0.39968696037928264
+Deepperf RE: 2.5976280621446386
+Deepperf_time (minutes): 11.94064222574234
+RF RE: 7.599380331853369
+RF_time (minutes): 1.332977040608724
+KNN RE: 16.00442966395018
+KNN_time (minutes): 0.01564424435297648
+SVR RE: 15.170194452375307
+SVR_time (minutes): 0.13540620009104412
+DT RE: 11.664819960826446
+DT_time (minutes): 0.008849704265594482
+LR RE: 58.538048296952816
+LR_time (minutes): 0.0006296475728352865
+KR RE: 56.181449898802846
+KR_time (minutes): 0.33311577637990314
+Run 25
+depth1 Deepperf_submodeling RE: 2.996444331201264
+depth1 Deepperf_submodeling_time (minutes): 15.400420967737833
+depth1 RF_submodeling RE: 9.787488748929244
+depth1 RF_submodeling_time (minutes): 2.506450378894806
+depth1 KNN_submodeling RE: 15.419885947628496
+depth1 KNN_submodeling_time (minutes): 0.0824088215827942
+depth1 SVR_submodeling RE: 12.52903996716537
+depth1 SVR_submodeling_time (minutes): 0.1313742995262146
+depth1 DT_submodeling RE: 12.801029543882114
+depth1 DT_submodeling_time (minutes): 0.02046119769414266
+depth1 LR_submodeling RE: 7.4873358599443085
+depth1 LR_submodeling_time (minutes): 0.008459031581878662
+depth1 KR_submodeling RE: 7.499444037356618
+depth1 KR_submodeling_time (minutes): 0.38013829787572223
+Deepperf RE: 2.7680380644771545
+Deepperf_time (minutes): 11.770753407478333
+RF RE: 9.766517539859642
+RF_time (minutes): 1.3523823420206706
+KNN RE: 16.07714978909863
+KNN_time (minutes): 0.01671750545501709
+SVR RE: 15.252168889697323
+SVR_time (minutes): 0.14188807010650634
+DT RE: 14.693954333723253
+DT_time (minutes): 0.009634737173716228
+LR RE: 40.373132940359916
+LR_time (minutes): 0.0006043394406636556
+KR RE: 37.58949776175061
+KR_time (minutes): 0.34561408360799156
+Run 26
+depth1 Deepperf_submodeling RE: 1.7005800680256629
+depth1 Deepperf_submodeling_time (minutes): 14.9965074300766
+depth1 RF_submodeling RE: 7.0726724467764805
+depth1 RF_submodeling_time (minutes): 2.6195899486541747
+depth1 KNN_submodeling RE: 13.495512482352177
+depth1 KNN_submodeling_time (minutes): 0.08608369032541911
+depth1 SVR_submodeling RE: 10.107503681201822
+depth1 SVR_submodeling_time (minutes): 0.12925585905710857
+depth1 DT_submodeling RE: 10.949482033180708
+depth1 DT_submodeling_time (minutes): 0.020391619205474852
+depth1 LR_submodeling RE: 7.119023053166688
+depth1 LR_submodeling_time (minutes): 0.008464117844899496
+depth1 KR_submodeling RE: 7.122036744735458
+depth1 KR_submodeling_time (minutes): 0.39618738492329914
+Deepperf RE: 2.1162695659043167
+Deepperf_time (minutes): 11.879531613985698
+RF RE: 7.178381247211963
+RF_time (minutes): 1.3539681593577066
+KNN RE: 14.100701708982033
+KNN_time (minutes): 0.016828409830729165
+SVR RE: 14.389801658859191
+SVR_time (minutes): 0.136455233891805
+DT RE: 10.63641244464026
+DT_time (minutes): 0.009322027365366617
+LR RE: 58.84409803093735
+LR_time (minutes): 0.0006763736406962076
+KR RE: 52.89090674153729
+KR_time (minutes): 0.326107394695282
+Run 27
+depth1 Deepperf_submodeling RE: 1.4241927892379316
+depth1 Deepperf_submodeling_time (minutes): 16.00313318967819
+depth1 RF_submodeling RE: 7.606829238900356
+depth1 RF_submodeling_time (minutes): 2.688857034842173
+depth1 KNN_submodeling RE: 14.052576671049815
+depth1 KNN_submodeling_time (minutes): 0.08316524028778076
+depth1 SVR_submodeling RE: 11.000592900656821
+depth1 SVR_submodeling_time (minutes): 0.13210302193959553
+depth1 DT_submodeling RE: 11.700354319223434
+depth1 DT_submodeling_time (minutes): 0.020767287413279215
+depth1 LR_submodeling RE: 6.986765979514591
+depth1 LR_submodeling_time (minutes): 0.007929698626200358
+depth1 KR_submodeling RE: 7.160080274233013
+depth1 KR_submodeling_time (minutes): 0.42252589066823326
+Deepperf RE: 2.523433585088321
+Deepperf_time (minutes): 11.856983892122905
+RF RE: 7.793095493076883
+RF_time (minutes): 1.375178337097168
+KNN RE: 14.044426516725064
+KNN_time (minutes): 0.017098645369211834
+SVR RE: 15.655132115634018
+SVR_time (minutes): 0.1361455996831258
+DT RE: 11.461395437643047
+DT_time (minutes): 0.009379605452219645
+LR RE: 42.84184184855337
+LR_time (minutes): 0.0006508350372314454
+KR RE: 41.59752451908212
+KR_time (minutes): 0.3410049239794413
+Run 28
+depth1 Deepperf_submodeling RE: 1.5887523269485968
+depth1 Deepperf_submodeling_time (minutes): 15.56335688829422
+depth1 RF_submodeling RE: 7.7863809104910855
+depth1 RF_submodeling_time (minutes): 2.477087457974752
+depth1 KNN_submodeling RE: 15.362085105800864
+depth1 KNN_submodeling_time (minutes): 0.08267014821370443
+depth1 SVR_submodeling RE: 10.370395822154139
+depth1 SVR_submodeling_time (minutes): 0.13119724194208782
+depth1 DT_submodeling RE: 11.04560958575064
+depth1 DT_submodeling_time (minutes): 0.02038518190383911
+depth1 LR_submodeling RE: 6.957903796922717
+depth1 LR_submodeling_time (minutes): 0.008372151851654052
+depth1 KR_submodeling RE: 6.945591825360739
+depth1 KR_submodeling_time (minutes): 0.3917531768480937
+Deepperf RE: 2.339087366201432
+Deepperf_time (minutes): 18.91635092894236
+RF RE: 8.075220028898244
+RF_time (minutes): 1.346734591325124
+KNN RE: 15.41287551930405
+KNN_time (minutes): 0.01973793903986613
+SVR RE: 15.68372902005087
+SVR_time (minutes): 0.1336095929145813
+DT RE: 11.6894017295286
+DT_time (minutes): 0.00856317679087321
+LR RE: 51.46446175437096
+LR_time (minutes): 0.0005864818890889485
+KR RE: 48.96887596561197
+KR_time (minutes): 0.3180302302042643
+Run 29
+depth1 Deepperf_submodeling RE: 1.4285592426295128
+depth1 Deepperf_submodeling_time (minutes): 14.490057468414307
+depth1 RF_submodeling RE: 8.032332894398776
+depth1 RF_submodeling_time (minutes): 2.7137399474779764
+depth1 KNN_submodeling RE: 13.681102061045081
+depth1 KNN_submodeling_time (minutes): 0.08267918427785238
+depth1 SVR_submodeling RE: 10.881217016088229
+depth1 SVR_submodeling_time (minutes): 0.133915909131368
+depth1 DT_submodeling RE: 11.298049257000374
+depth1 DT_submodeling_time (minutes): 0.020210063457489012
+depth1 LR_submodeling RE: 7.206716014665211
+depth1 LR_submodeling_time (minutes): 0.008563081423441568
+depth1 KR_submodeling RE: 7.0346635323151
+depth1 KR_submodeling_time (minutes): 0.4026468753814697
+Deepperf RE: 2.3288838448299516
+Deepperf_time (minutes): 11.75984027783076
+RF RE: 8.5328255524108
+RF_time (minutes): 1.3439942955970765
+KNN RE: 13.687876899096654
+KNN_time (minutes): 0.01555023193359375
+SVR RE: 14.8059586743691
+SVR_time (minutes): 0.1334759473800659
+DT RE: 11.910155448172999
+DT_time (minutes): 0.008980492750803629
+LR RE: 46.00759442039623
+LR_time (minutes): 0.0006001432736714681
+KR RE: 41.26053283661526
+KR_time (minutes): 0.3029189229011536
+Run 30
+depth1 Deepperf_submodeling RE: 1.895633800381597
+depth1 Deepperf_submodeling_time (minutes): 14.463031530380249
+depth1 RF_submodeling RE: 7.439719236512334
+depth1 RF_submodeling_time (minutes): 2.669909965991974
+depth1 KNN_submodeling RE: 15.408889332332677
+depth1 KNN_submodeling_time (minutes): 0.08222124973932902
+depth1 SVR_submodeling RE: 12.105433540889118
+depth1 SVR_submodeling_time (minutes): 0.13062447309494019
+depth1 DT_submodeling RE: 12.406612825581535
+depth1 DT_submodeling_time (minutes): 0.020125071207682293
+depth1 LR_submodeling RE: 7.420702862870279
+depth1 LR_submodeling_time (minutes): 0.007935444513956705
+depth1 KR_submodeling RE: 7.195955182406407
+depth1 KR_submodeling_time (minutes): 0.3932680090268453
+Deepperf RE: 2.1777566226070184
+Deepperf_time (minutes): 18.412186539173128
+RF RE: 7.844468124042231
+RF_time (minutes): 1.3287827332814535
+KNN RE: 15.412705041987639
+KNN_time (minutes): 0.015725191434224448
+SVR RE: 13.99713191327189
+SVR_time (minutes): 0.1348690390586853
+DT RE: 12.155095352077987
+DT_time (minutes): 0.0088507612546285
+LR RE: 39.08196067877889
+LR_time (minutes): 0.0005901177724202474
+KR RE: 37.10096836208933
+KR_time (minutes): 0.33913249969482423

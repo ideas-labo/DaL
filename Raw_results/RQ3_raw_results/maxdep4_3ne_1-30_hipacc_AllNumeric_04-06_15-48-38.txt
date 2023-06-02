@@ -1,0 +1,331 @@
+Run 1
+depth1 Deepperf-DaL RE: 17.353306898496864
+depth1 Deepperf-DaL_time (minutes): 12.515241940816244
+depth2 Deepperf-DaL RE: 18.182389256406122
+depth2 Deepperf-DaL_time (minutes): 18.795387625694275
+depth3 Deepperf-DaL RE: 18.351301752345474
+depth3 Deepperf-DaL_time (minutes): 23.088538364569345
+depth4 Deepperf-DaL RE: 17.747282145523606
+depth4 Deepperf-DaL_time (minutes): 27.06641307671865
+Deepperf RE: 16.366416571307024
+Deepperf_time (minutes): 4.325896259148916
+Run 2
+depth1 Deepperf-DaL RE: 15.894841627557215
+depth1 Deepperf-DaL_time (minutes): 16.515431332588197
+depth2 Deepperf-DaL RE: 18.0747191900409
+depth2 Deepperf-DaL_time (minutes): 17.840331780910493
+depth3 Deepperf-DaL RE: 19.781061620227977
+depth3 Deepperf-DaL_time (minutes): 18.421812868118288
+depth4 Deepperf-DaL RE: 17.524851009147874
+depth4 Deepperf-DaL_time (minutes): 19.808666157722474
+Deepperf RE: 14.824916974523324
+Deepperf_time (minutes): 5.598995860417684
+Run 3
+depth1 Deepperf-DaL RE: 16.87851715694511
+depth1 Deepperf-DaL_time (minutes): 15.159141949812572
+depth2 Deepperf-DaL RE: 18.05810371652195
+depth2 Deepperf-DaL_time (minutes): 18.816024045149486
+depth3 Deepperf-DaL RE: 14.764167762649214
+depth3 Deepperf-DaL_time (minutes): 11.689330633481344
+depth4 Deepperf-DaL RE: 14.89235811803208
+depth4 Deepperf-DaL_time (minutes): 18.25961261590322
+Deepperf RE: 15.00602276282487
+Deepperf_time (minutes): 3.69872901837031036113424
+Run 4
+depth1 Deepperf-DaL RE: 13.620470427887858
+depth1 Deepperf-DaL_time (minutes): 12.61196677684784
+depth2 Deepperf-DaL RE: 17.34712979252217
+depth2 Deepperf-DaL_time (minutes): 17.39386381705602
+depth3 Deepperf-DaL RE: 15.689126462652384
+depth3 Deepperf-DaL_time (minutes): 26.69169276158015
+depth4 Deepperf-DaL RE: 18.093215453084166
+depth4 Deepperf-DaL_time (minutes): 23.21262653271357
+Deepperf RE: 13.626770702923203
+Deepperf_time (minutes): 4.2290637135505686113424
+Run 5
+depth1 Deepperf-DaL RE: 15.07932765228763
+depth1 Deepperf-DaL_time (minutes): 17.07292487223943
+depth2 Deepperf-DaL RE: 13.74258802228803
+depth2 Deepperf-DaL_time (minutes): 17.291173835595448
+depth3 Deepperf-DaL RE: 15.340294431128758
+depth3 Deepperf-DaL_time (minutes): 14.095261601607005
+depth4 Deepperf-DaL RE: 16.822905887753215
+depth4 Deepperf-DaL_time (minutes): 12.212180054187774
+Deepperf RE: 17.66082796269385
+Deepperf_time (minutes): 5.3597550392150886113424
+Run 6
+depth1 Deepperf-DaL RE: 13.689850917633393
+depth1 Deepperf-DaL_time (minutes): 12.021272273858388
+depth2 Deepperf-DaL RE: 14.008906275618267
+depth2 Deepperf-DaL_time (minutes): 16.824955650170644
+depth3 Deepperf-DaL RE: 13.181575399331583
+depth3 Deepperf-DaL_time (minutes): 22.810030229886372
+depth4 Deepperf-DaL RE: 13.902320227770993
+depth4 Deepperf-DaL_time (minutes): 33.155211667219795
+Deepperf RE: 15.783967281662637
+Deepperf_time (minutes): 3.402854255835215312013365
+Run 7
+depth1 Deepperf-DaL RE: 18.69609889930144
+depth1 Deepperf-DaL_time (minutes): 13.79687796831131
+depth2 Deepperf-DaL RE: 20.67015033354844
+depth2 Deepperf-DaL_time (minutes): 17.828187493483224
+depth3 Deepperf-DaL RE: 15.478302533742337
+depth3 Deepperf-DaL_time (minutes): 14.008827435970307
+depth4 Deepperf-DaL RE: 20.128183473364928
+depth4 Deepperf-DaL_time (minutes): 16.378363732496897
+Deepperf RE: 12.791428930772675
+Deepperf_time (minutes): 5.04873866637547858213403
+Run 8
+depth1 Deepperf-DaL RE: 14.75608761189516
+depth1 Deepperf-DaL_time (minutes): 14.766248857975006
+depth2 Deepperf-DaL RE: 15.568182717627549
+depth2 Deepperf-DaL_time (minutes): 16.38737964630127
+depth3 Deepperf-DaL RE: 17.274319869682923
+depth3 Deepperf-DaL_time (minutes): 19.254390041033428
+depth4 Deepperf-DaL RE: 15.612245863668926
+depth4 Deepperf-DaL_time (minutes): 28.454548505942025
+Deepperf RE: 14.87206556792252
+Deepperf_time (minutes): 4.1615327994028738213403
+Run 9
+depth1 Deepperf-DaL RE: 14.639582179958927
+depth1 Deepperf-DaL_time (minutes): 14.309930169582367
+depth2 Deepperf-DaL RE: 14.210222263113153
+depth2 Deepperf-DaL_time (minutes): 15.219140597184499
+depth3 Deepperf-DaL RE: 16.02443689237517
+depth3 Deepperf-DaL_time (minutes): 21.41429053147634
+depth4 Deepperf-DaL RE: 19.497009823749966
+depth4 Deepperf-DaL_time (minutes): 20.78502339522044
+Deepperf RE: 14.055049727777938
+Deepperf_time (minutes): 7.0213334123293568213403
+Run 10
+depth1 Deepperf-DaL RE: 15.156397935955447
+depth1 Deepperf-DaL_time (minutes): 15.017892571290334
+depth2 Deepperf-DaL RE: 13.49231667448444
+depth2 Deepperf-DaL_time (minutes): 22.489151561260222
+depth3 Deepperf-DaL RE: 17.10127057462784
+depth3 Deepperf-DaL_time (minutes): 20.98982250293096
+depth4 Deepperf-DaL RE: 20.197806560714568
+depth4 Deepperf-DaL_time (minutes): 31.102201783657073
+Deepperf RE: 15.073569377989477
+Deepperf_time (minutes): 7.3864769816398628213403
+Run 11
+depth1 Deepperf-DaL RE: 17.26389462237184
+depth1 Deepperf-DaL_time (minutes): 12.944889469941456
+depth2 Deepperf-DaL RE: 19.841874050662557
+depth2 Deepperf-DaL_time (minutes): 15.788185767332713
+depth3 Deepperf-DaL RE: 18.246876878656963
+depth3 Deepperf-DaL_time (minutes): 12.685861500104268
+depth4 Deepperf-DaL RE: 16.094961899960197
+depth4 Deepperf-DaL_time (minutes): 11.653975502649944
+Deepperf RE: 18.551089234245513
+Deepperf_time (minutes): 5.471812291940053
+Run 12
+depth1 Deepperf-DaL RE: 15.96565658605367
+depth1 Deepperf-DaL_time (minutes): 13.341974047819773
+depth2 Deepperf-DaL RE: 20.142868990553673
+depth2 Deepperf-DaL_time (minutes): 14.242008233070374
+depth3 Deepperf-DaL RE: 17.495270482338668
+depth3 Deepperf-DaL_time (minutes): 15.16205403804779
+depth4 Deepperf-DaL RE: 17.208798125434452
+depth4 Deepperf-DaL_time (minutes): 10.620568613211313
+Deepperf RE: 17.410825001168785
+Deepperf_time (minutes): 3.62065948247909564513440
+Run 13
+depth1 Deepperf-DaL RE: 15.785887673624272
+depth1 Deepperf-DaL_time (minutes): 17.400041019916536
+depth2 Deepperf-DaL RE: 16.314127444077933
+depth2 Deepperf-DaL_time (minutes): 22.724437125523885
+depth3 Deepperf-DaL RE: 17.570158380535485
+depth3 Deepperf-DaL_time (minutes): 19.376234300931294
+depth4 Deepperf-DaL RE: 16.218070320150744
+depth4 Deepperf-DaL_time (minutes): 20.914035852750143
+Deepperf RE: 14.961075655676554
+Deepperf_time (minutes): 6.1153059720993048513400
+Run 14
+depth1 Deepperf-DaL RE: 16.458865655523123
+depth1 Deepperf-DaL_time (minutes): 17.09887217283249
+depth2 Deepperf-DaL RE: 14.335755134806393
+depth2 Deepperf-DaL_time (minutes): 20.3301296989123
+depth3 Deepperf-DaL RE: 17.49808246723801
+depth3 Deepperf-DaL_time (minutes): 45.47581979433696
+depth4 Deepperf-DaL RE: 16.854614735516463
+depth4 Deepperf-DaL_time (minutes): 34.811944516499835
+Deepperf RE: 18.33690625236507
+Deepperf_time (minutes): 5.31055337190628058513400
+Run 15
+depth1 Deepperf-DaL RE: 17.29499596645028
+depth1 Deepperf-DaL_time (minutes): 16.03054280678431
+depth2 Deepperf-DaL RE: 17.775558821142436
+depth2 Deepperf-DaL_time (minutes): 22.21756775379181
+depth3 Deepperf-DaL RE: 16.261138072399945
+depth3 Deepperf-DaL_time (minutes): 27.355086104075113
+depth4 Deepperf-DaL RE: 16.607996055244303
+depth4 Deepperf-DaL_time (minutes): 31.186599349975587
+Deepperf RE: 13.355921001873
+Deepperf_time (minutes): 4.7555646856625888513400
+Run 16
+depth1 Deepperf-DaL RE: 14.407634067255447
+depth1 Deepperf-DaL_time (minutes): 26.47783539692561
+depth2 Deepperf-DaL RE: 16.185731595302297
+depth2 Deepperf-DaL_time (minutes): 17.895967197418212
+depth3 Deepperf-DaL RE: 14.288724483074068
+depth3 Deepperf-DaL_time (minutes): 20.83976202805837
+depth4 Deepperf-DaL RE: 16.027637500017672
+depth4 Deepperf-DaL_time (minutes): 18.305624151229857
+Deepperf RE: 15.560524444774348
+Deepperf_time (minutes): 4.6676223397254958513400
+Run 17
+depth1 Deepperf-DaL RE: 15.156397935955447
+depth1 Deepperf-DaL_time (minutes): 15.017892571290334
+depth2 Deepperf-DaL RE: 13.49231667448444
+depth2 Deepperf-DaL_time (minutes): 22.489151561260222
+depth3 Deepperf-DaL RE: 17.10127057462784
+depth3 Deepperf-DaL_time (minutes): 20.98982250293096
+depth4 Deepperf-DaL RE: 20.197806560714568
+depth4 Deepperf-DaL_time (minutes): 31.102201783657073
+Deepperf RE: 15.073569377989477
+Deepperf_time (minutes): 7.3864769816398628213403
+Run 18
+depth1 Deepperf-DaL RE: 13.689850917633393
+depth1 Deepperf-DaL_time (minutes): 12.021272273858388
+depth2 Deepperf-DaL RE: 14.008906275618267
+depth2 Deepperf-DaL_time (minutes): 16.824955650170644
+depth3 Deepperf-DaL RE: 13.181575399331583
+depth3 Deepperf-DaL_time (minutes): 22.810030229886372
+depth4 Deepperf-DaL RE: 13.902320227770993
+depth4 Deepperf-DaL_time (minutes): 33.155211667219795
+Deepperf RE: 15.783967281662637
+Deepperf_time (minutes): 3.402854255835215312013365
+Run 19
+depth1 Deepperf-DaL RE: 12.363782248152237
+depth1 Deepperf-DaL_time (minutes): 9.613070670763651
+depth2 Deepperf-DaL RE: 12.476257338017438
+depth2 Deepperf-DaL_time (minutes): 15.273380092779796
+depth3 Deepperf-DaL RE: 14.020078580661357
+depth3 Deepperf-DaL_time (minutes): 21.55436545610428
+depth4 Deepperf-DaL RE: 13.338633694400906
+depth4 Deepperf-DaL_time (minutes): 15.543018027146656
+Deepperf RE: 13.614335723504386
+Deepperf_time (minutes): 6.43166543245315612013365
+Run 20
+depth1 Deepperf-DaL RE: 12.103694330482885
+depth1 Deepperf-DaL_time (minutes): 13.642965217431387
+depth2 Deepperf-DaL RE: 13.547849943891212
+depth2 Deepperf-DaL_time (minutes): 18.29098709821701
+depth3 Deepperf-DaL RE: 13.26055839524435
+depth3 Deepperf-DaL_time (minutes): 19.488843174775443
+depth4 Deepperf-DaL RE: 14.227253616431906
+depth4 Deepperf-DaL_time (minutes): 24.99067991177241
+Deepperf RE: 12.026330787722417
+Deepperf_time (minutes): 5.3904853185017912013365
+Run 21
+depth1 Deepperf-DaL RE: 15.785887673624272
+depth1 Deepperf-DaL_time (minutes): 17.400041019916536
+depth2 Deepperf-DaL RE: 16.314127444077933
+depth2 Deepperf-DaL_time (minutes): 22.724437125523885
+depth3 Deepperf-DaL RE: 17.570158380535485
+depth3 Deepperf-DaL_time (minutes): 19.376234300931294
+depth4 Deepperf-DaL RE: 16.218070320150744
+depth4 Deepperf-DaL_time (minutes): 20.914035852750143
+Deepperf RE: 14.961075655676554
+Deepperf_time (minutes): 6.1153059720993048513400
+Run 22
+depth1 Deepperf-DaL RE: 21.073887296606056
+depth1 Deepperf-DaL_time (minutes): 11.465470063686372
+depth2 Deepperf-DaL RE: 20.85495038342162
+depth2 Deepperf-DaL_time (minutes): 22.54840457836787
+depth3 Deepperf-DaL RE: 22.57414456272298
+depth3 Deepperf-DaL_time (minutes): 17.802701926231386
+depth4 Deepperf-DaL RE: 22.349967357652037
+depth4 Deepperf-DaL_time (minutes): 15.182491016387939
+Deepperf RE: 20.661061527856603
+Deepperf_time (minutes): 3.52797306378682453813447
+Run 23
+depth1 Deepperf-DaL RE: 18.382553278345547
+depth1 Deepperf-DaL_time (minutes): 11.440034182866414
+depth2 Deepperf-DaL RE: 18.000827950723856
+depth2 Deepperf-DaL_time (minutes): 20.773821973800658
+depth3 Deepperf-DaL RE: 20.233901521504983
+depth3 Deepperf-DaL_time (minutes): 25.044304351011913
+depth4 Deepperf-DaL RE: 17.024518155124284
+depth4 Deepperf-DaL_time (minutes): 14.080549657344818
+Deepperf RE: 19.14480075119769
+Deepperf_time (minutes): 6.6474326809247343813447
+Run 24
+depth1 Deepperf-DaL RE: 22.163713735640886
+depth1 Deepperf-DaL_time (minutes): 13.676341112454732
+depth2 Deepperf-DaL RE: 18.112085939358543
+depth2 Deepperf-DaL_time (minutes): 19.41480125983556
+depth3 Deepperf-DaL RE: 22.39165334204684
+depth3 Deepperf-DaL_time (minutes): 22.29975006580353
+depth4 Deepperf-DaL RE: 21.67509855836387
+depth4 Deepperf-DaL_time (minutes): 23.08047293027242
+Deepperf RE: 18.04519931508209
+Deepperf_time (minutes): 3.91584864854812633813447
+Run 25
+depth1 Deepperf-DaL RE: 21.073887296606056
+depth1 Deepperf-DaL_time (minutes): 11.465470063686372
+depth2 Deepperf-DaL RE: 20.85495038342162
+depth2 Deepperf-DaL_time (minutes): 22.54840457836787
+depth3 Deepperf-DaL RE: 22.57414456272298
+depth3 Deepperf-DaL_time (minutes): 17.802701926231386
+depth4 Deepperf-DaL RE: 22.349967357652037
+depth4 Deepperf-DaL_time (minutes): 15.182491016387939
+Deepperf RE: 20.661061527856603
+Deepperf_time (minutes): 3.52797306378682453813447
+Run 26
+depth1 Deepperf-DaL RE: 17.989041872677078
+depth1 Deepperf-DaL_time (minutes): 14.353632887204489
+depth2 Deepperf-DaL RE: 18.290447264109815
+depth2 Deepperf-DaL_time (minutes): 15.913332450389863
+depth3 Deepperf-DaL RE: 16.390109592299176
+depth3 Deepperf-DaL_time (minutes): 14.090229018529255
+depth4 Deepperf-DaL RE: 18.148511754840357
+depth4 Deepperf-DaL_time (minutes): 12.095954477787018
+Deepperf RE: 15.73287720853023
+Deepperf_time (minutes): 8.771143778165184513440
+Run 27
+depth1 Deepperf-DaL RE: 18.309145079884832
+depth1 Deepperf-DaL_time (minutes): 12.950583163897196
+depth2 Deepperf-DaL RE: 21.246045486091596
+depth2 Deepperf-DaL_time (minutes): 16.950660888353983
+depth3 Deepperf-DaL RE: 19.673554115227148
+depth3 Deepperf-DaL_time (minutes): 16.90179591178894
+depth4 Deepperf-DaL RE: 18.388950563305585
+depth4 Deepperf-DaL_time (minutes): 14.856885778903962
+Deepperf RE: 26.635518712052875
+Deepperf_time (minutes): 3.62917727231979374513440
+Run 28
+depth1 Deepperf-DaL RE: 16.461709686049282
+depth1 Deepperf-DaL_time (minutes): 13.107245735327403
+depth2 Deepperf-DaL RE: 15.409254021454181
+depth2 Deepperf-DaL_time (minutes): 12.471571238835653
+depth3 Deepperf-DaL RE: 17.162793653137474
+depth3 Deepperf-DaL_time (minutes): 16.852969217300416
+depth4 Deepperf-DaL RE: 16.4596159323597
+depth4 Deepperf-DaL_time (minutes): 17.350013764699302
+Deepperf RE: 17.074685618999837
+Deepperf_time (minutes): 5.4297360301017764513440
+Run 29
+depth1 Deepperf-DaL RE: 15.96565658605367
+depth1 Deepperf-DaL_time (minutes): 13.341974047819773
+depth2 Deepperf-DaL RE: 20.142868990553673
+depth2 Deepperf-DaL_time (minutes): 14.242008233070374
+depth3 Deepperf-DaL RE: 17.495270482338668
+depth3 Deepperf-DaL_time (minutes): 15.16205403804779
+depth4 Deepperf-DaL RE: 17.208798125434452
+depth4 Deepperf-DaL_time (minutes): 10.620568613211313
+Deepperf RE: 17.410825001168785
+Deepperf_time (minutes): 3.62065948247909564513440
+Run 30
+depth1 Deepperf-DaL RE: 17.26389462237184
+depth1 Deepperf-DaL_time (minutes): 12.944889469941456
+depth2 Deepperf-DaL RE: 19.841874050662557
+depth2 Deepperf-DaL_time (minutes): 15.788185767332713
+depth3 Deepperf-DaL RE: 18.246876878656963
+depth3 Deepperf-DaL_time (minutes): 12.685861500104268
+depth4 Deepperf-DaL RE: 16.094961899960197
+depth4 Deepperf-DaL_time (minutes): 11.653975502649944
+Deepperf RE: 18.551089234245513
+Deepperf_time (minutes): 5.471812291940053
+
