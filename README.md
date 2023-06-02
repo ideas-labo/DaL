@@ -1,9 +1,9 @@
 # Predicting Software Performance with Divide-and-Learn
 > Predicting the performance of highly configurable software systems is the foundation for performance testing and quality assurance. To that end, recent work has been relying on machine/deep learning to model software performance. However, a **crucial yet unaddressed challenge** is how to cater for the **sparsity** inherited from the configuration landscape: the influence of configuration options (features) and the distribution of data samples are highly sparse.
 > 
-> In this paper, we propose an approach based on the concept of 'divide-and-learn', dubbed *DaL*. The basic idea is that, to handle **sample sparsity**, we divide the samples from the configuration landscape into **distant divisions**, for each of which we build a **regularized Deep Neural Network** as the local model to deal with the **feature sparsity**. A newly given configuration would then be assigned to the right model of division for the final prediction. 
+> In this paper, we propose an approach based on the concept of **'divide-and-learn'**, dubbed *DaL*. The basic idea is that, to handle sample sparsity, we divide the samples from the configuration landscape into **distant divisions**, for each of which we build a **regularized Deep Neural Network** as the local model to deal with the feature sparsity. A newly given configuration would then be assigned to the right model of division for the final prediction. 
 > 
-> Experiment results from eight real-world systems and five sets of training data reveal that, compared with the state-of-the-art approaches, *DaL* performs **no worse than the best counterpart on 33 out of 40 cases** (within which 26 cases are significantly better) with up to **1.94×** improvement on accuracy; requires fewer samples to reach the same/better accuracy; and producing acceptable training overhead. Practically, *DaL* also considerably improves different global models when using them as the underlying local models, which further strengthens its **flexibility**. 
+> Experiment results from eight real-world systems and five sets of training data reveal that, compared with the state-of-the-art approaches, *DaL* performs **no worse than the best counterpart on 33 out of 40 cases** (within which 26 cases are significantly better) with up to **1.94×** improvement on accuracy; requires fewer samples to reach the same/better accuracy; and producing acceptable training overhead. Practically, *DaL* also considerably improves different global models when using them as the underlying local models, which further strengthens its flexibility. 
 > 
 This repository contains the **key codes**, **full data used**, **raw experiment results** and **the supplementary tables** for the paper.
 
@@ -11,12 +11,6 @@ This repository contains the **key codes**, **full data used**, **raw experiment
 
 - **DaL_main.py**: 
 the *main program* for using DaL, which automatically reads data from csv files, trains and evaluates, and save the results.
-
-- **mlp_plain_model.py**:
-contains functions to construct and train plain DNN. This is also used by [DeepPerf](https://github.com/DeepPerf/DeepPerf).
-    
-- **mlp_sparse_model.py**:
-contains functions to construct and build DNN with L1 regularization. This is also used by [DeepPerf](https://github.com/DeepPerf/DeepPerf).
 
 - **utils**
 
@@ -26,9 +20,14 @@ contains functions to construct and build DNN with L1 regularization. This is al
     └─ **hyperparameter_tuning.py**:
     contains the function that efficiently tunes hyperparameters of DNN.
     
+    └─ **mlp_plain_model_tf2.py**:
+    contains functions to construct and train plain DNN. 
+    
+    └─ **mlp_sparse_model_tf2.py**:
+    contains functions to construct and build DNN with L1 regularization. 
+    
 - **Raw_results**:
 contains the raw experiment results for all the research questions.
-
 
 - **Data**:
 performance datasets of 8 subject systems as specified in the paper.
@@ -40,9 +39,9 @@ supplementary document for Table4 in the paper.
 1. Download all the files into the same folder/clone the repository.
 
 2. Install the specified version of Python and Tensorflow:
-the codes have been tested with **Python 3.6 - 3.7** and **Tensorflow 1.x**, other versions might cause errors.
+the codes have been tested with **Python 3.6 - 3.9** and **Tensorflow 2.x**, other versions might cause errors.
 
-3. Run *DaL_main.py* and install all missing packages according to runtime messages.
+3. Install all missing packages according to **requirements.txt**.
 
 
 # Run *DaL*
@@ -58,7 +57,7 @@ the codes have been tested with **Python 3.6 - 3.7** and **Tensorflow 1.x**, oth
 The main program *DaL_main.py* defaultly runs a demo experiment that evaluates *DaL* with 5 sample sizes of *Lrzip*, 
 each repeated 30 times, without hyperparameter tuning (to save demonstration time).
 
-A **succussful run** would produce similar messages as below: 
+A **successful run** would produce similar messages as below: 
 
         Run 1
         N_train:  127
