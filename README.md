@@ -41,7 +41,7 @@ supplementary document for Table4 in the paper.
 2. Install the specified version of Python and Tensorflow:
 the codes have been tested with **Python 3.6 - 3.9** and **Tensorflow 2.x**, other versions might cause errors.
 
-3. Install all missing packages according to **requirements.txt**.
+3. Install all missing packages according to **requirements.txt** and runtime messages.
 
 
 # Run *DaL*
