@@ -1,0 +1,6 @@
+imbalanced_learn==0.10.1
+imblearn==0.0
+numpy==1.22.1
+pandas==1.5.1
+scikit_learn==1.2.2
+tensorflow==2.10.1
