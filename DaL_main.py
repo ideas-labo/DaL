@@ -5,7 +5,7 @@ import pandas as pd
 import tensorflow as tf
 from numpy import genfromtxt
 from imblearn.over_sampling import SMOTE
-from mlp_sparse_model import MLPSparseModel
+from utils.mlp_sparse_model_tf2 import MLPSparseModel
 from utils.general import build_model
 from utils.hyperparameter_tuning import nn_l1_val, hyperparameter_tuning
 from sklearn import tree
@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 
 if __name__ == "__main__":
     # set the parameters
-    test_mode = True  ### to tune the hyper-pearameters, set to False
+    test_mode = False  ### to tune the hyper-pearameters, set to False
     save_file = False  ### to save the results, set to True
     enable_DaL = True ### to enable the training of DaL, set to True
     enable_baseline_models = False  ### to compare DaL with other ML models (RQ2), set to True
