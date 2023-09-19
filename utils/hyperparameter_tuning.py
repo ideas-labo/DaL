@@ -56,13 +56,13 @@ def hyperparameter_tuning(args=[[],[],[],[],[]]):
     temp_config['decay'] = 'NA'
     temp_config['verbose'] = 0
 
-    abs_error_all = np.zeros((15, 3))
-    abs_error_all_train = np.zeros((15, 3))
+    abs_error_all = np.zeros((15, 4))
+    abs_error_all_train = np.zeros((15, 4))
     abs_error_layer_lr = np.zeros((15, 2))
     abs_err_layer_lr_min = 100
     count = 0
     layer_range = range(2, 5)
-    lr_range = np.logspace(np.log10(0.0001), np.log10(0.1), 3)
+    lr_range = np.logspace(np.log10(0.0001), np.log10(0.1), 4)
     for n_layer in layer_range:
         temp_config['num_layer'] = n_layer
         for lr_index, lr_initial in enumerate(lr_range):
@@ -135,7 +135,7 @@ def hyperparameter_tuning(args=[[],[],[],[],[]]):
 
     print('Step 2: Tuning the l1 regularized hyperparameter ...')
     # Use grid search to find the right value of lambda
-    lambda_range = np.logspace(-2, np.log10(100), 10)
+    lambda_range = np.logspace(-2, np.log10(100), 20)
     error_min = np.zeros((1, len(lambda_range)))
     rel_error_min = np.zeros((1, len(lambda_range)))
     decay = 'NA'
