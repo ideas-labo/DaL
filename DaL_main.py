@@ -1,15 +1,14 @@
+import os
 import time
 import random
 import numpy as np
 import pandas as pd
-import tensorflow as tf
 from numpy import genfromtxt
 from imblearn.over_sampling import SMOTE
+from sklearn.tree import DecisionTreeRegressor
 from utils.mlp_sparse_model_tf2 import MLPSparseModel
-from utils.general import build_model
-from utils.hyperparameter_tuning import nn_l1_val, hyperparameter_tuning
-from sklearn import tree
-from sklearn.cluster import KMeans
+from utils.general import build_model, recursive_dividing
+from utils.hyperparameter_tuning import hyperparameter_tuning
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_selection import mutual_info_regression
@@ -18,7 +17,7 @@ warnings.filterwarnings('ignore')
 
 if __name__ == "__main__":
     # set the parameters
-    test_mode = False  ### to tune the hyper-pearameters, set to False
+    test_mode = True  ### to tune the hyper-pearameters, set to False
     save_file = False  ### to save the results, set to True
     enable_DaL = True ### to enable the training of DaL, set to True
     enable_baseline_models = False  ### to compare DaL with other ML models (RQ2), set to True
@@ -168,50 +167,12 @@ if __name__ == "__main__":
                 X = whole_data[non_zero_indexes, 0:N_features]
 
                 # build and train a CART to extract the dividing conditions
-                DT = build_model('DT', test_mode, X, Y)
+                DT = DecisionTreeRegressor(random_state=seed, criterion='squared_error', splitter='best')
                 DT.fit(X, Y)
                 tree_ = DT.tree_  # get the tree structure
 
-                # the function to extract the dividing conditions recursively,
-                # and divide the training data into clusters (divisions)
-                from sklearn.tree import _tree
-
-
-                def recurse(node, depth, samples=[]):
-                    indent = "  " * depth
-                    if depth <= max_depth:
-                        if tree_.feature[node] != _tree.TREE_UNDEFINED:  # if it's not the leaf node
-                            left_samples = []
-                            right_samples = []
-                            # get the node and the dividing threshold
-                            name = tree_.feature[node]
-                            threshold = tree_.threshold[node]
-                            # split the samples according to the threshold
-                            for i_sample in range(0, len(samples)):
-                                if X[i_sample, name] <= threshold:
-                                    left_samples.append(samples[i_sample])
-                                else:
-                                    right_samples.append(samples[i_sample])
-                            # check if the minimum number of samples is statisfied
-                            if (len(left_samples) <= min_samples or len(right_samples) <= min_samples):
-                                print('{}Not enough samples to cluster with {} and {} samples'.format(indent,
-                                                                                                      len(left_samples),
-                                                                                                      len(right_samples)))
-                                cluster_indexes_all.append(samples)
-                            else:
-                                print("{}{} samples with feature {} <= {}:".format(indent, len(left_samples), name,
-                                                                                   threshold))
-                                recurse(tree_.children_left[node], depth + 1, left_samples)
-                                print("{}{} samples with feature {} > {}:".format(indent, len(right_samples), name,
-                                                                                  threshold))
-                                recurse(tree_.children_right[node], depth + 1, right_samples)
-                    # the base case: add the samples to the cluster
-                    elif depth == max_depth + 1:
-                        cluster_indexes_all.append(samples)
-
-
-                # run the defined recursive function above
-                recurse(0, 1, non_zero_indexes)
+                # recursively divide samples
+                cluster_indexes_all = recursive_dividing(0, 1, tree_, X, non_zero_indexes, max_depth, min_samples, cluster_indexes_all)
 
                 k = len(cluster_indexes_all)  # the number of divided subsets
                 if save_file:
@@ -292,19 +253,16 @@ if __name__ == "__main__":
                     smo = SMOTE(random_state=1, k_neighbors=3)
                     X_smo, y_smo = smo.fit_resample(X_smo, y_smo)
 
+                print('Training RF classifier...')
                 # build a random forest classifier to classify testing samples
-                forest = RandomForestClassifier(random_state=0)
+                forest = RandomForestClassifier(random_state=seed, criterion='gini')
                 # tune the hyperparameters if not in test mode
-                if not test_mode:
-                    param = {"min_samples_split": [2, 10, 20],
-                             "max_depth": [None, 2, 5, 10],
-                             "min_samples_leaf": [1, 5, 10],
-                             "max_leaf_nodes": [None, 5, 10, 20],
-                             }
-                    print('Hyperparameter Tuning...')
+                if (not test_mode) and enough_data:
+                    param = {'n_estimators': np.arange(10, 100, 10)}
                     gridS = GridSearchCV(forest, param)
                     gridS.fit(X_smo, y_smo)
-                    forest = RandomForestClassifier(**gridS.best_params_, random_state=0)
+                    print(gridS.best_params_)
+                    forest = RandomForestClassifier(**gridS.best_params_, random_state=seed, criterion='gini')
                 forest.fit(X_smo, y_smo)  # training
 
                 # classify the testing samples
@@ -320,7 +278,6 @@ if __name__ == "__main__":
 
                 if enable_DaL:
                     ### Train DNN_DaL
-                    print('Training DaL...')
                     if test_mode == True:  # default hyperparameters, just for testing
                         for i in range(0, k):
                             # define the configuration for constructing the NN
@@ -339,15 +296,13 @@ if __name__ == "__main__":
                     ## tune DNN for each cluster (division) with multi-thread
                     elif test_mode == False:  # only tune the hyperparameters when not test_mode
                         from concurrent.futures import ThreadPoolExecutor
-
                         # create a multi-thread pool
-                        with ThreadPoolExecutor(max_workers=2) as pool:
+                        with ThreadPoolExecutor(max_workers=os.cpu_count()) as pool:
                             args = []  # prepare arguments for hyperparameter tuning
                             for i in range(k):  # for each division
                                 args.append([N_features, X_train1[i], Y_train1[i], X_train2[i], Y_train2[i]])
                             # optimal_params contains the results from the function 'hyperparameter_tuning'
-                            for optimal_params in pool.map(hyperparameter_tuning, args):
-                                print('Learning division {}... ({} samples)'.format(i + 1, len(X_train[i])))
+                            for i, optimal_params in enumerate(pool.map(hyperparameter_tuning, args)):
                                 n_layer_opt, lambda_f, temp_lr_opt = optimal_params  # unzip the optimal parameters
                                 # define the configuration for constructing the DNN
                                 temp_config = dict()
@@ -360,6 +315,7 @@ if __name__ == "__main__":
                                 lr_opt.append(temp_lr_opt)
 
                     for i in range(k):
+                        print('Training DNN for division {}... ({} samples)'.format(i + 1, len(X_train[i])))
                         # train a local DNN model using the optimal hyperparameters
                         model = MLPSparseModel(config[i])
                         model.build_train()
