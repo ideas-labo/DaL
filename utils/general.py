@@ -8,8 +8,46 @@ from sklearn.kernel_ridge import KernelRidge
 from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
+from sklearn.tree import _tree
 import warnings
 warnings.filterwarnings("ignore")
+
+# the function to extract the dividing conditions recursively, and divide the training data into clusters (divisions)
+def recursive_dividing(node, depth, tree_, X, samples=[], max_depth=1, min_samples=2, cluster_indexes_all=[]):
+    indent = "  " * depth
+    if depth <= max_depth:
+        if tree_.feature[node] != _tree.TREE_UNDEFINED:  # if it's not the leaf node
+            left_samples = []
+            right_samples = []
+            # get the node and the dividing threshold
+            name = tree_.feature[node]
+            threshold = tree_.threshold[node]
+            # split the samples according to the threshold
+            for i_sample in range(0, len(samples)):
+                if X[i_sample, name] <= threshold:
+                    left_samples.append(samples[i_sample])
+                else:
+                    right_samples.append(samples[i_sample])
+            # check if the minimum number of samples is statisfied
+            if (len(left_samples) <= min_samples or len(right_samples) <= min_samples):
+                print('{}Not enough samples to cluster with {} and {} samples'.format(indent,
+                                                                                      len(left_samples),
+                                                                                      len(right_samples)))
+                cluster_indexes_all.append(samples)
+            else:
+                print("{}{} samples with feature {} <= {}:".format(indent, len(left_samples), name,
+                                                                   threshold))
+                cluster_indexes_all = recursive_dividing(tree_.children_left[node], depth + 1, tree_, X, left_samples, max_depth, min_samples, cluster_indexes_all)
+                print("{}{} samples with feature {} > {}:".format(indent, len(right_samples), name,
+                                                                  threshold))
+                cluster_indexes_all = recursive_dividing(tree_.children_right[node], depth + 1, tree_, X, right_samples, max_depth, min_samples, cluster_indexes_all)
+        else:
+            cluster_indexes_all.append(samples)
+    # the base case: add the samples to the cluster
+    elif depth == max_depth + 1:
+        cluster_indexes_all.append(samples)
+    return cluster_indexes_all
+
 
 def get_non_zero_indexes(whole_data, total_tasks):
     (N, n) = whole_data.shape
@@ -95,24 +133,42 @@ def build_model(regression_mod='RF', test_mode=True, training_X=[], training_Y=[
     model = None
     if regression_mod == 'RF':
         model = RandomForestRegressor(random_state=0)
-        max = 3
-        if len(training_X)>30: # enlarge the hyperparameter range if samples are enough
-            max = 6
-        param = {'n_estimators': np.arange(10, 100, 20),
-                 'criterion': ('mse', 'mae'),
-                 'max_features': ('auto', 'sqrt', 'log2'),
-                 'min_samples_split': np.arange(2, max, 1)
-                 }
+        max = (len(training_X) >= 5 and 5 or len(training_X))
+        if 500 > len(training_X) > 50:
+            max = 5
+        elif len(training_X) >= 500:
+            max = 10
+        max_estimators = (len(training_X) >= 500 and 500 or 100)
+        param = {'n_estimators': np.arange(10, max_estimators, 5),
+                 'criterion': ['squared_error'],
+                 'min_samples_leaf': np.arange(1, max, 2)}
         if not test_mode:
             # print('Hyperparameter Tuning...')
             gridS = GridSearchCV(model, param)
             gridS.fit(training_X, training_Y)
             model = RandomForestRegressor(**gridS.best_params_, random_state=0)
 
+    elif regression_mod == 'DT':
+        model = DecisionTreeRegressor(random_state=0)
+        max = (len(training_X) >= 5 and 5 or len(training_X))
+        if 500 > len(training_X) > 50:
+            max = 5
+        elif len(training_X) >= 500:
+            max = 10
+        param = {'criterion': ['squared_error'],
+                 'splitter': ['best'],
+                 'min_samples_leaf': np.arange(1, max, 2)
+                 }
+        if not test_mode:
+            # print('Hyperparameter Tuning...')
+            gridS = GridSearchCV(model, param)
+            gridS.fit(training_X, training_Y)
+            model = DecisionTreeRegressor(**gridS.best_params_, random_state=0)
+
     elif regression_mod == 'KNN':
         min = 2
         max = 3
-        if len(training_X)>30:
+        if len(training_X) > 30:
             max = 16
             min = 5
         model = KNeighborsRegressor(n_neighbors=min)
@@ -140,21 +196,6 @@ def build_model(regression_mod='RF', test_mode=True, training_X=[], training_Y=[
             gridS = GridSearchCV(model, param)
             gridS.fit(training_X, training_Y)
             model = SVR(**gridS.best_params_)
-
-    elif regression_mod == 'DT':
-        model = DecisionTreeRegressor(random_state=0)
-        max = 3
-        if len(training_X)>30:
-            max = 6
-        param = {'criterion': ('mse', 'friedman_mse', 'mae'),
-                 'splitter': ('best', 'random'),
-                 'min_samples_split': np.arange(2, max, 1)
-                 }
-        if not test_mode:
-            # print('Hyperparameter Tuning...')
-            gridS = GridSearchCV(model, param)
-            gridS.fit(training_X, training_Y)
-            model = DecisionTreeRegressor(**gridS.best_params_, random_state=0)
 
     elif regression_mod == 'LR':
         model = LinearRegression()
