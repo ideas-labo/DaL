@@ -9,7 +9,7 @@ This repository contains the **key codes**, **full data used**, **raw experiment
 
 # Citation
 
->Jingzhi Gong and Tao Chen. Predicting Software Performance with Divide-and-Learn. In Proceedings of the ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), 2023.
+>Jingzhi Gong and Tao Chen. Predicting Software Performance with Divide-and-Learn. *In Proceedings of the ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)*, 2023.
 
 # Documents
 
